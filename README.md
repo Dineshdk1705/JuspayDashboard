@@ -37,7 +37,8 @@ Follow these steps to set up the project locally:
 
 ## 🛠️ Deployed Version
 
-    You can access the live version of the dashboard here: [Deployed Link](https://juspay-dashboard-dinesh.vercel.app/)
+    You can access the live version of the dashboard here: 
+    [Deployed Link](https://juspay-dashboard-dinesh.vercel.app)
 
 ---
 
