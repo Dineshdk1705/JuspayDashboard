@@ -1,0 +1,182 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background-color: #ffffff;
+  --text-color: #1c1c1c;
+  --background-primary-color: #f7f9fb;
+  --bullet-color: #1c1c1c33;
+  --border-primary-color: #1c1c1c1a;
+  --border-light-color: #1c1c1c0d;
+  --primary-text-color: #1c1c1c66;
+  --selected-menu-color: #1c1c1c;
+  --selected-menu-background: #1c1c1c0d;
+  --submenu-hover-background: #f3f4f6;
+  --primary-light: #f7f9fb;
+  --checkbox-checked-color: #1c1c1c;
+  --checkbox-border-color: #000000;
+  --checkbox-checkmark-color: #ffffff;
+}
+
+.dark {
+  --background-color: #1c1c1c;
+  --text-color: #ffffff;
+  --background-primary-color: #ffffff0d;
+  --bullet-color: #ffffff33;
+  --border-primary-color: #ffffff1a;
+  --border-light-color: #ffffff0d;
+  --primary-text-color: #ffffff66;
+  --selected-menu-color: #c6c7f8;
+  --selected-menu-background: #ffffff1a;
+  --submenu-hover-background: #282828;
+  --primary-light: #ffffff0d;
+  --checkbox-checked-color: #c6c7f8;
+  --checkbox-border-color: #c6c7f8;
+  --checkbox-checkmark-color: #1c1c1c;
+}
+
+body {
+  @apply font-sans bg-background;
+}
+
+/* CHECKBOX */
+.custom-checkbox input[type="checkbox"] {
+  appearance: none;
+  width: 15px;
+  height: 15px;
+  border: 1px solid var(--checkbox-border-color, #c6c7f8);
+  border-radius: 4px;
+  background-color: transparent;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.custom-checkbox input[type="checkbox"]:checked {
+  background-color: var(--checkbox-checked-color, #c6c7f8);
+  border-color: var(--checkbox-checked-border-color, #c6c7f8);
+  position: relative;
+}
+
+/* Checkmark Style */
+.custom-checkbox input[type="checkbox"]:checked::after {
+  content: "✓";
+  font-size: 12px;
+  font-weight: 800;
+  color: var(--checkbox-checkmark-color, #1c1c1c); /* Dynamic checkmark color */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.custom-checkbox input[type="checkbox"]:hover {
+  border-color: var(--checkbox-hover-border-color, #a5a6d8);
+}
+
+.scrollbar-hide {
+  /* Hide scrollbar for Webkit-based browsers (Chrome, Safari, Edge) */
+  -ms-overflow-style: none; /* For Internet Explorer */
+  scrollbar-width: none; /* For Firefox */
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none; /* For Webkit browsers */
+}
+/* Override Ant Design's global font family */
+.ant,
+.ant-pagination,
+.ant-breadcrumb,
+.ant-input,
+.ant-btn {
+  font-family: "Inter", sans-serif !important;
+}
+
+/* PAGINATION */
+/* General Pagination Styles */
+.ant-pagination-item-active {
+  background-color: #1c1c1c0d !important; /* Active page background (light theme) */
+  border: none !important;
+}
+
+.ant-pagination-item-active a {
+  color: #1c1c1c !important; /* Active page text color (light theme) */
+  font-weight: normal !important;
+}
+
+/* Pagination Styles for Dark Theme */
+.dark .ant-pagination-item {
+  background-color: #1c1c1c; /* Dark background for pagination items */
+  color: var(
+    --text-color
+  ) !important; /* Ensure dark theme text color is applied */
+  border: "none" !important;
+}
+
+/* Ensure text color for non-active pagination items in dark theme */
+.dark .ant-pagination-item a {
+  color: var(
+    --text-color
+  ) !important; /* Text color for non-active pagination items */
+}
+
+/* Dark Theme Active Page */
+.dark .ant-pagination-item-active {
+  background-color: var(
+    --selected-menu-background
+  ) !important; /* Active page background */
+  color: var(--text-color) !important; /* Active page text color */
+  border: none !important; /* Remove border for active page */
+}
+
+.dark .ant-pagination-item-active a {
+  color: var(
+    --text-color
+  ) !important; /* Active page text color (theme based) */
+  font-weight: normal !important;
+}
+
+/* Dark Theme Pagination Item Hover */
+.dark .ant-pagination-item:hover {
+  background-color: var(
+    --selected-menu-background
+  ) !important; /* Hover background */
+  color: var(--text-color) !important; /* Hover text color */
+}
+
+/* Dark Theme Next/Prev Arrows */
+.ant-pagination-prev,
+.ant-pagination-next {
+  color: var(--text-color) !important; /* Text color for next/prev arrows */
+}
+
+.dark .ant-pagination-prev,
+.dark .ant-pagination-next {
+  color: var(
+    --text-color
+  ) !important; /* Text color for next/prev arrows in dark theme */
+}
+
+/* Dark Theme Next/Prev Arrows Hover */
+.dark .ant-pagination-prev:hover,
+.dark .ant-pagination-next:hover {
+  color: var(
+    --selected-menu-background
+  ) !important; /* Hover color for next/prev arrows */
+}
+
+/* Fix for the arrow button links specifically */
+.dark .ant-pagination-prev .ant-pagination-item-link,
+.dark .ant-pagination-next .ant-pagination-item-link {
+  color: var(--text-color) !important; /* Text color for the arrow links */
+}
+
+/* Fix for hover on the arrow button links */
+.dark .ant-pagination-prev:hover .ant-pagination-item-link,
+.dark .ant-pagination-next:hover .ant-pagination-item-link {
+  color: var(
+    --selected-menu-background
+  ) !important; /* Hover color for arrow links */
+}

@@ -1,0 +1,43 @@
+[
+  {
+    "title": "Customers",
+    "value": "3,781",
+    "percentageChange": "+11.01%",
+    "isPositive": true,
+    "bgColor": "#E3F5FF",
+    "darkTextColor": "#1C1C1C",
+    "darkBgColor": "#E3F5FF",
+    "darkBgIconSrc": "src/assets/icons/rise.svg"
+  },
+  {
+    "title": "Orders",
+    "value": "1,219",
+    "percentageChange": "-0.03%",
+    "isPositive": false,
+    "bgColor": "#F7F9FB",
+    "darkTextColor": "#FFFFFF",
+    "darkBgColor": "#FFFFFF0D",
+    "darkBgIconSrc": "src/assets/icons/dark/fall-dark.svg",
+    "redirectLink": "/orders"
+  },
+  {
+    "title": "Revenue",
+    "value": "$695",
+    "percentageChange": "+15.03%",
+    "isPositive": true,
+    "bgColor": "#F7F9FB",
+    "darkTextColor": "#FFFFFF",
+    "darkBgColor": "#FFFFFF0D",
+    "darkBgIconSrc": "src/assets/icons/dark/rise-dark.svg"
+  },
+  {
+    "title": "Growth",
+    "value": "30.1%",
+    "percentageChange": "+6.08%",
+    "isPositive": true,
+    "bgColor": "#E5ECF6",
+    "darkTextColor": "#1C1C1C",
+    "darkBgColor": "#E5ECF6",
+    "darkBgIconSrc": "src/assets/icons/rise.svg"
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "name": "New York",
+    "coordinates": [-74.006, 40.7128],
+    "revenue": "72K",
+    "percentage": 70
+  },
+  {
+    "name": "San Francisco",
+    "coordinates": [-122.4194, 37.7749],
+    "revenue": "39K",
+    "percentage": 30
+  },
+  {
+    "name": "Sydney",
+    "coordinates": [151.2093, -33.8688],
+    "revenue": "25K",
+    "percentage": 20
+  },
+  {
+    "name": "Singapore",
+    "coordinates": [103.8198, 1.3521],
+    "revenue": "61K",
+    "percentage": 60
+  }
+]
