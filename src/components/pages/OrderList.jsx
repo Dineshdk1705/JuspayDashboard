@@ -12,9 +12,9 @@ const OrderList = () => {
       </h2>
       <div className="flex items-center justify-between bg-primary mb-3 px-2 h-11 rounded-lg">
         <div className="flex gap-3">
-          <Icon iconSrc="src/assets/icons/add.svg" h="18px" w="18px" />
-          <Icon iconSrc="src/assets/icons/filter.svg" h="18px" w="18px" />
-          <Icon iconSrc="src/assets/icons/sort.svg" h="18px" w="18px" />
+          <Icon iconSrc="/assets/icons/add.svg" h="18px" w="18px" />
+          <Icon iconSrc="/assets/icons/filter.svg" h="18px" w="18px" />
+          <Icon iconSrc="/assets/icons/sort.svg" h="18px" w="18px" />
         </div>
         <div
           className={`flex items-center border-[1px]

@@ -7,7 +7,7 @@
     "bgColor": "#E3F5FF",
     "darkTextColor": "#1C1C1C",
     "darkBgColor": "#E3F5FF",
-    "darkBgIconSrc": "src/assets/icons/rise.svg"
+    "darkBgIconSrc": "/assets/icons/rise.svg"
   },
   {
     "title": "Orders",
@@ -17,7 +17,7 @@
     "bgColor": "#F7F9FB",
     "darkTextColor": "#FFFFFF",
     "darkBgColor": "#FFFFFF0D",
-    "darkBgIconSrc": "src/assets/icons/dark/fall-dark.svg",
+    "darkBgIconSrc": "/assets/icons/dark/fall-dark.svg",
     "redirectLink": "/orders"
   },
   {
@@ -28,7 +28,7 @@
     "bgColor": "#F7F9FB",
     "darkTextColor": "#FFFFFF",
     "darkBgColor": "#FFFFFF0D",
-    "darkBgIconSrc": "src/assets/icons/dark/rise-dark.svg"
+    "darkBgIconSrc": "/assets/icons/dark/rise-dark.svg"
   },
   {
     "title": "Growth",
@@ -38,6 +38,6 @@
     "bgColor": "#E5ECF6",
     "darkTextColor": "#1C1C1C",
     "darkBgColor": "#E5ECF6",
-    "darkBgIconSrc": "src/assets/icons/rise.svg"
+    "darkBgIconSrc": "/assets/icons/rise.svg"
   }
 ]

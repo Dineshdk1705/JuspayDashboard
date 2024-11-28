@@ -17,10 +17,9 @@ const Sidebar = ({ isOpen }) => {
       } transition-transform lg:translate-x-0 lg:block`}
     >
       <div className="flex items-center gap-3 p-1">
-        <Avatar imgSrc="src/assets/icons/ByeWind.svg" h="24px" w="24px" />
+        <Avatar imgSrc="/assets/icons/ByeWind.svg" h="24px" w="24px" />
         <h5 className="text-[14px] text-text">ByeWind</h5>
       </div>
-
       <div className="flex flex-col gap-1 mt-4 pb-3">
         <div className="flex gap-8 py-1 px-2 text-sm leading-5 text-text font-normal">
           <h4 className="opacity-40">Favorites</h4>
@@ -36,13 +35,12 @@ const Sidebar = ({ isOpen }) => {
           </div>
         ))}
       </div>
-
       <div className="flex flex-col py-2 px-2 mt-2">
         <h2 className="text-sm text-text opacity-40 px-1">Dashboard</h2>
         <ul>
           <li className="text-sm px-[17px] bg-selected_menu_bg flex gap-1 rounded-md p-1 mb-2 mt-3 relative">
             <span className="absolute h-[16px] w-1 -left-[1px] top-[6px] rounded-full bg-selected_menu_icon"></span>
-            <img src="src/assets/icons/pie.svg" alt="icon" style={svgStyle} />
+            <img src="/assets/icons/pie.svg" alt="icon" style={svgStyle} />
             <span className="text-text">Default</span>
           </li>
           {menus.map((menu, index) => (
@@ -50,7 +48,6 @@ const Sidebar = ({ isOpen }) => {
           ))}
         </ul>
       </div>
-
       <div className="flex flex-col py-2 px-2 mt-2">
         <h2 className="text-sm text-text opacity-40 px-1 mb-3">Pages</h2>
         <ul>

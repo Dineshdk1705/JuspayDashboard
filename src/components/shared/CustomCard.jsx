@@ -57,8 +57,8 @@ const CustomCard = ({
                 theme === "dark"
                   ? darkIconSrc
                   : isPositive
-                  ? "/src/assets/icons/rise.svg"
-                  : "/src/assets/icons/fall.svg"
+                  ? "/assets/icons/rise.svg"
+                  : "/assets/icons/fall.svg"
               }`}
               alt="avatar"
               height="16px"

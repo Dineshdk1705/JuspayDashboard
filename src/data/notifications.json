@@ -4,28 +4,28 @@
       "id": 1,
       "title": "You have a bug that needs to be fixed",
       "time": "Just now",
-      "iconSrc": "src/assets/icons/bee.svg",
+      "iconSrc": "/assets/icons/bee.svg",
       "bg_color": "#E3F5FF"
     },
     {
       "id": 2,
       "title": "New user registered",
       "time": "59 minutes ago",
-      "iconSrc": "src/assets/icons/user.svg",
+      "iconSrc": "/assets/icons/user.svg",
       "bg_color": "#E5ECF6"
     },
     {
       "id": 3,
       "title": "You have a bug that needs to be fixed",
       "time": "12 hours ago",
-      "iconSrc": "src/assets/icons/bee.svg",
+      "iconSrc": "/assets/icons/bee.svg",
       "bg_color": "#E3F5FF"
     },
     {
       "id": 4,
       "title": "Andi Lane subscribed to you",
       "time": "Today, 11.59 AM",
-      "iconSrc": "src/assets/icons/broadcast.svg",
+      "iconSrc": "/assets/icons/broadcast.svg",
       "bg_color": "#E5ECF6"
     }
   ],

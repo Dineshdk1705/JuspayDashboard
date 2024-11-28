@@ -2,24 +2,24 @@
   "menus": [
     {
       "title": "eCommerce",
-      "iconSrc": "src/assets/icons/cart.svg",
+      "iconSrc": "/assets/icons/cart.svg",
       "subMenus": ["Menu 1", "Menu 2", "Menu 3"]
     },
     {
       "title": "Projects",
-      "iconSrc": "src/assets/icons/folder.svg",
+      "iconSrc": "/assets/icons/folder.svg",
       "subMenus": ["Menu 4", "Menu 5", "Menu 6"]
     },
     {
       "title": "Online Courses",
-      "iconSrc": "src/assets/icons/book.svg",
+      "iconSrc": "/assets/icons/book.svg",
       "subMenus": ["Menu 7", "Menu 8", "Menu 9"]
     }
   ],
   "pagesMenus": [
     {
       "title": "User Profile",
-      "iconSrc": "src/assets/icons/contact2.svg",
+      "iconSrc": "/assets/icons/contact2.svg",
       "subMenus": [
         "Overview",
         "Projects",
@@ -30,22 +30,22 @@
     },
     {
       "title": "Account",
-      "iconSrc": "src/assets/icons/contact.svg",
+      "iconSrc": "/assets/icons/contact.svg",
       "subMenus": ["Menu 1", "Menu 2", "Menu 3"]
     },
     {
       "title": "Corporate",
-      "iconSrc": "src/assets/icons/users.svg",
+      "iconSrc": "/assets/icons/users.svg",
       "subMenus": ["Menu 1", "Menu 2", "Menu 3"]
     },
     {
       "title": "Blog",
-      "iconSrc": "src/assets/icons/book2.svg",
+      "iconSrc": "/assets/icons/book2.svg",
       "subMenus": ["Menu 1", "Menu 2", "Menu 3"]
     },
     {
       "title": "Social",
-      "iconSrc": "src/assets/icons/social.svg",
+      "iconSrc": "/assets/icons/social.svg",
       "subMenus": ["Menu 1", "Menu 2", "Menu 3"]
     }
   ]

@@ -16,11 +16,11 @@ const Navbar = ({ toggleSidebar, toggleNotification, isOnOrdersPage }) => {
     <div className="w-full border-b-[1px] bg-background border-border_primary flex items-center gap-3 py-[20px] px-[20px] sm:px-[28px] justify-between">
       <div className="flex items-center gap-4">
         <button className="h-5 w-5 lg:cursor-default" onClick={toggleSidebar}>
-          <Icon iconSrc="src/assets/icons/collapse.svg" h="20px" w="20px" />
+          <Icon iconSrc="/assets/icons/collapse.svg" h="20px" w="20px" />
         </button>
 
         <div className="hidden sm:block">
-          <Icon iconSrc="src/assets/icons/star.svg" h="20px" w="20px" />
+          <Icon iconSrc="/assets/icons/star.svg" h="20px" w="20px" />
         </div>
 
         <Breadcrumb
@@ -56,22 +56,22 @@ const Navbar = ({ toggleSidebar, toggleNotification, isOnOrdersPage }) => {
 
         <div className="flex gap-3 ml-5">
           <button className="h-5 w-5" onClick={toggleTheme}>
-            <Icon iconSrc="src/assets/icons/theme.svg" h="20px" w="20px" />
+            <Icon iconSrc="/assets/icons/theme.svg" h="20px" w="20px" />
           </button>
 
           <div className="hidden sm:block">
-            <Icon iconSrc="src/assets/icons/history.svg" h="20px" w="20px" />
+            <Icon iconSrc="/assets/icons/history.svg" h="20px" w="20px" />
           </div>
 
           <button
             className="h-5 w-5"
             onClick={!isOnOrdersPage ? toggleNotification : null}
           >
-            <Icon iconSrc="src/assets/icons/bell.svg" h="20px" w="20px" />
+            <Icon iconSrc="/assets/icons/bell.svg" h="20px" w="20px" />
           </button>
 
           <div className="hidden lg:block">
-            <Icon iconSrc="src/assets/icons/collapse.svg" h="20px" w="20px" />
+            <Icon iconSrc="/assets/icons/collapse.svg" h="20px" w="20px" />
           </div>
         </div>
       </div>

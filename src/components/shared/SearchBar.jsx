@@ -8,7 +8,7 @@ const SearchBar = ({ placeholder, showLastIcon, theme }) => {
   return (
     <>
       <img
-        src="src/assets/icons/search.svg"
+        src="/assets/icons/search.svg"
         style={svgStyle}
         alt="avatar"
         height="16px"

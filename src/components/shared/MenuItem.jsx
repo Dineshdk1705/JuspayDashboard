@@ -17,7 +17,7 @@ const MenuItem = ({ menu }) => {
               isOpen ? "rotate-90" : "rotate-0"
             }`}
           >
-            <Icon iconSrc="src/assets/icons/menuArrow.svg" />
+            <Icon iconSrc="/assets/icons/menuArrow.svg" />
           </div>
         )}
         <div className="flex items-center gap-1">

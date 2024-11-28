@@ -107,7 +107,7 @@ const Table = () => {
                       <span>{item.address}</span>
                       <span className="group-hover:visible invisible">
                         <Icon
-                          iconSrc="src/assets/icons/notes.svg"
+                          iconSrc="/assets/icons/notes.svg"
                           h="16px"
                           w="16px"
                         />
@@ -117,7 +117,7 @@ const Table = () => {
                   <td className="px-3 py-2 h-[40px]">
                     <div className="flex gap-1 items-center">
                       <Icon
-                        iconSrc="src/assets/icons/calendar.svg"
+                        iconSrc="/assets/icons/calendar.svg"
                         h="16px"
                         w="16px"
                       />
@@ -136,7 +136,7 @@ const Table = () => {
                   <td className="px-3 py-2 h-[40px] text-right group relative group-hover:rounded-r-md">
                     <div className="hidden group-hover:flex justify-center items-center h-full w-full hover:bg-[#eaecee] dark:hover:bg-[#404040] rounded m-auto">
                       <Icon
-                        iconSrc="src/assets/icons/dotsThree.svg"
+                        iconSrc="/assets/icons/dotsThree.svg"
                         h="16px"
                         w="16px"
                       />
