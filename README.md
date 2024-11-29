@@ -33,6 +33,20 @@ Follow these steps to set up the project locally:
 
 4. **Open the app in your browser at** [http://localhost:5173](http://localhost:5173)
 
+5. **Page Navigation:**
+
+   Homepage ("/"):
+   
+      - Click on the "Orders" tile/card to navigate to the Order List Page.
+
+   Order List Page ("/orders"):
+   
+      - Click on the "Dashboard" link/Text in the top-left corner of the navbar to navigate back to the Homepage.
+
+6: **Theme Toggle:**
+
+   - Use the Theme/Sun icon in the navbar to switch between Dark Mode and Light Mode.
+
 ---
 
 ## 🛠️ Deployed Version
